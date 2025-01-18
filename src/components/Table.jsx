@@ -43,7 +43,7 @@ const Table = ({ data, columns }) => {
 
     const pages = getPageNumbers();
     return (
-        <>
+        <div className="overflow-x-auto">
             <table className="w-100">
                 <thead>
                     {table.getHeaderGroups().map(headerGroup => (
@@ -101,7 +101,7 @@ const Table = ({ data, columns }) => {
                     </span>
                 </div >
             </div >
-        </>
+        </div>
     )
 }
 

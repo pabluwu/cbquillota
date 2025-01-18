@@ -18,7 +18,7 @@ const NavbarCustom = () => {
         });
     }
     return (
-        <nav className="navbar navbar-expand-lg bg-dark">
+        <nav className="navbar navbar-dark navbar-expand-lg bg-dark">
             <div className="container">
                 <Link className="navbar-brand text-white" to="/solicitar-unidad">
                     <img style={{
@@ -46,6 +46,7 @@ const NavbarCustom = () => {
                 </div>
             </div>
         </nav>
+        
     );
 }
 

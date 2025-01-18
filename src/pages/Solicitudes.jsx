@@ -63,7 +63,7 @@ const Solicitudes = () => {
         <>
             <NavbarCustom />
             <div className="border-bottom mb-3">
-                <div className="container p-5">
+                <div className="container p-4">
                     <div className="row">
                         <div className="d-flex justify-content-center">
                             <h2>Listado de Solicitudes</h2>

@@ -58,7 +58,7 @@ const SolicitarUnidad = () => {
             }
             <NavbarCustom />
             <div className="border-bottom">
-                <div className="container p-5">
+                <div className="container p-4">
                     <div className="row">
                         <div className="d-flex justify-content-center">
                             <h2>Solicitar unidades</h2>
@@ -69,20 +69,20 @@ const SolicitarUnidad = () => {
             <form onSubmit={handleSubmit(onSubmit)}>
                 <div className="container mt-5 border rounded px-4 py-3">
                     <div className="row g-3">
-                        <div className="col-4">
+                        <div className="col-md-4 col-sm-12">
                             <DatePicker control={control} errors={errors} required={{ required: true }} label={'Fecha Solicitud'} name={'fecha_solicitud'} />
                         </div>
-                        <div className="col-4">
+                        <div className="col-md-4 col-sm-12">
                             <Input errors={errors} label={'Conductor'} required={{ required: true }} register={register} name={'conductor'} />
                         </div>
-                        <div className="col-4">
+                        <div className="col-md-4 col-sm-12">
                             <Input errors={errors} label={'Obac'} required={{ required: true }} register={register} name={'obac'} />
                         </div>
                         <div className="col-12">
                             <div className="row">
                                 <p><strong>Seleccione las unidades.</strong></p>
 
-                                <div className="col-6">
+                                <div className="col-md-6 col-sm-12 mb-3">
                                     <p><strong>Unidades de compañía.</strong></p>
                                     <div className="row">
                                         {
@@ -97,7 +97,7 @@ const SolicitarUnidad = () => {
                                         }
                                     </div>
                                 </div>
-                                <div className="col-6 mb-3">
+                                <div className="col-md-6 col-sm-12 mb-3">
                                     <p><strong>Unidades de comandancia.</strong></p>
                                     <div className="row">
                                         {
